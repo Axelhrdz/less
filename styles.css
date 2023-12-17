@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+
+:root{
+    --bgc1: #cae4eb;
+    --bgc2: #FFFEF6; 
+    --contPadd: 3% 6%;
+    --bs-border-width: none;
+}
+
+*{
+    font-family: Poppins;
+    margin: 0 auto;
+}
+
+.contDimensions{
+    height: 750px;
+    width: 100%;
+}
+
+
+/*Header-----------------------------------*/
+.header-logo{
+    padding-bottom: 5rem;
+}
+
+.header{
+    background-image: url("./images/header3.jpeg");
+    background-position: center
+    background-size: cover;
+    background-position-x: center;
+    padding: var(--contPadd);*/
+    background-color: var(--bgc1);
+    & h1{
+        font-size: 5rem;
+        color: #fff;
+
+    }
+    & p{
+        font-size: 2rem;
+        color: #fff;
+    }
+    & button{
+        width: 330px;
+        height: 70px;
+        border-radius: 20px;
+        border: none;
+        background-color: #75c9c9;
+        color: #fff;
+    }
+}
+
+/*Knowme section-----------------------------------*/
+.know-me{
+    padding: var(--contPadd);
+    overflow-y: scroll;
+    background-color: var(--bgc2);
+    & h1{
+        padding-bottom: 2rem;
+        font-size: 3.5rem;
+
+    & img{
+        width: 350px;
+    }
+    }
+}
+
+.know-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+knowme-text, p{
+    font-size: 1.5rem;
+    
+}
+
+.container-knowme{
+    gap: 5rem;
+}
+
+.know-img{
+    width: 50%;
+
+}
+
+.know-img, img{
+    border-radius: 20px;
+}
+
+.knowme-text{
+    width: 50%;
+    & button{
+        width: 280px;
+        height: 60px;
+        background-color: #75c9c9;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+/*Properties section-----------------------------------*/
+.properties{
+    /*padding: var(--contPadd);*/
+    padding: 5rem 10rem 5rem 10rem;
+    height: 900px;
+    /*background-color: var(--bgc1);*/
+    background-image: url(./images/A-massage-room.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(8px);
+    & h1{
+        padding-bottom: 5rem;
+        font-size: 3.5rem;
+        color: #fff;
+    }
+}
+
+/* testing staged manually...
+.card-img{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+} */
+
+.card-container{
+    gap: 2rem;
+    display: inline-flex;
+}
+
+.card{
+    width: 25rem;
+    text-align: center;
+
+    & h1{
+        padding-bottom: 0;
+    }
+}
+
+
+
+
+.surveys{
+    padding: var(--contPadd);
+    background-color: var(--bgc2);
+}
+
+.contact{
+    padding: var(--contPadd);
+    background-color: var(--bgc1);
+}
+
+
+.other{
+    width: 100%;
+    height: 750px;
+    background-color: #fff;
+}
+
+
