@@ -8,30 +8,55 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!--Header section-->
     <div class="header contDimensions">
       <div class="header-logo">
         <img src="./images/icons8-house.svg" alt="">
       </div>
-      <div>
-        <h1><strong>
-          Titulo
-          Sample
-        </strong></h1>
-        <p>Slogan text sample</p>
-        <button type="button" class="btn btn-light fs-3">Mas informacion</button>
+      <div style="position: absolute;">
+        <div class="headerTitle">
+          <h1><strong>CALMA</strong></h1>
+          <p>HEALTH SKIN</p>
+        </div>
+        <button type="button" class="btn btn-light fs-4">Mas informacion</button>
       </div>
     </div>
     <!--Ger to know me section-->
     <div class="know-me contDimensions contPadding d-flex flex-column justify-content-center">
-      <div><h1>Get to know me </h1></div>
+      <div><h1>Conocenos</h1></div>
       <div class="container-knowme d-flex justify-content-between">
         <div class="knowme-img">
           <img src="./images/header.jpeg" alt="" style="width: 600px;">
         </div>
         <div class="knowme-text">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa blanditiis repudiandae similique? Quibusdam dolorem quidem, distinctio inventore tempora dolor cupiditate! Consequuntur, quia magnam? Eveniet similique nesciunt pariatur iusto cum asperiores?</p>
-          <button class="btn btn-secondary fs-3">Conocenos</button>
+          <button class="btn btn-secondary fs-4">Conocenos</button>
         </div>
       </div>
     </div>
@@ -42,43 +67,59 @@
           <div class="card">
             <img src="./images/header4.jpeg" alt="" class="card-img-top">
             <div class="card-body">
-              <h1 class="card-title fs-1">Titulo</h1>
+              <h1 class="card-title fs-1">Servicio 1</h1>
               <p class="card-text fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus est modi aliquam tempore ipsam, ut recusandae quia magnam qui quaerat ipsum, assumenda adipisci.</p>
+              <a href="./"><img  class="card-arrow" src="./images/card-icons/arrow-down-short.svg" alt="forward-link"></a>
             </div>
           </div>
 
           <div class="card">
+            <img src="./images/card2.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h1 class="card-title fs-1">Servicio 2</h1>
+              <p class="card-text fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus est modi aliquam tempore ipsam, ut recusandae quia magnam qui quaerat ipsum, assumenda adipisci.</p>
+              <a href="./"><img class="card-arrow" src="./images/card-icons/arrow-down-short.svg" alt="forward-link"></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/card3.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h1 class="card-title fs-1">Servicio 3</h1>
+              <p class="card-text fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus est modi aliquam tempore ipsam, ut recusandae quia magnam qui quaerat ipsum, assumenda adipisci.</p>
+              <a href="./"><img class="card-arrow" src="./images/card-icons/arrow-down-short.svg" alt="forward-link"></a>
+            </div>
+          </div>
+
+          <!--<div class="card">
             <img src="./images/header2.jpeg" alt="" class="card-img-top">
             <div class="card-body">
               <h1 class="card-title fs-1">Titulo</h1>
               <p class="card-text fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus est modi aliquam tempore ipsam, ut recusandae quia magnam qui quaerat ipsum, assumenda adipisci.</p>
             </div>
-          </div>
-
-          <div class="card">
-            <img src="./images/header2.jpeg" alt="" class="card-img-top">
-            <div class="card-body">
-              <h1 class="card-title fs-1">Titulo</h1>
-              <p class="card-text fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus est modi aliquam tempore ipsam, ut recusandae quia magnam qui quaerat ipsum, assumenda adipisci.</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="./images/header2.jpeg" alt="" class="card-img-top">
-            <div class="card-body">
-              <h1 class="card-title fs-1">Titulo</h1>
-              <p class="card-text fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus est modi aliquam tempore ipsam, ut recusandae quia magnam qui quaerat ipsum, assumenda adipisci.</p>
-            </div>
-          </div>
+          </div> -->
       </div>
     </div>
 
-    <div class="other contDimensions"></div>
-    
-
-
-
-
+    <!-- Footer - contact us section -->
+    <div class="footer-contact contDimensions">
+      <div class="footer-container">
+        <h1>Agenda tu Cita</h1>
+        <a href="https://wa.link/hf1b5h" target="_blank"><button type="button" class="btn btn-secondary fs-4">
+          <img src="./images/icons/whatsapp-svgrepo-com (2).svg" alt="" style="width: 45px;">
+          Whatsapp
+        </button></a>
+        <h2>Direccion:</h2>
+      
+        <p>
+          123 Anywhere city, 123 state <br>
+          anywehre country 00434
+        </p>
+      </div>
+      <div class="footer-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3735.029215556486!2d-103.43897247314453!3d20.586864471435547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428acbd47915c55%3A0x5f42d8d21ce80209!2sCapul%C3%ADn%2055%2C%20La%20Tijera%2C%2045647%20La%20Tijera%2C%20Jal.!5e0!3m2!1sen!2smx!4v1704322403460!5m2!1sen!2smx" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
