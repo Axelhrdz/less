@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,700;0,800;1,700&family=Poppins:wght@100;200;300;400&display=swap');
 
@@ -10,13 +10,17 @@
 }
 
 *{
-    font-family: Poppins;
+    /* font-family: Poppins; */
     margin: 0 auto;
 }
 
 .contDimensions{
     height: 750px;
     width: 100%;
+}
+
+.navbar{
+    background-color: black;
 }
 
 /*.filter-bluesite{
@@ -31,9 +35,9 @@
     max-width: 500px;
     /* position: absolute; */
     left: 10%;
-    font-family: Kanit, sans-serif;
+    /* font-family: Kanit, sans-serif; */
     margin: 0 auto;
-    text-shadow: 5px 1px 10px #fff;
+    text-shadow: 5px 1px 55px #fff;
 }
 
 .headerTitle > h1{
@@ -60,13 +64,13 @@
     background-color: var(--bgc1); /*revisar despues con mas detalle*/
     & h1{
         font-size: 5rem;
-        color: black;
+        color: #FFF;
         
 
     }
     & p{
         font-size: 2rem;
-        color: black;
+        color: #FFF;
     }
     & button{
         width: 330px;
@@ -86,6 +90,7 @@
     & h1{
         padding-bottom: 2rem;
         font-size: 3.5rem;
+        font-weight: 400;
 
     & img{
         width: 350px;
@@ -118,6 +123,7 @@ knowme-text, p{
 
 .knowme-text{
     width: 50%;
+    font-weight: 400;
     & button{
         width: 280px;
         height: 60px;
@@ -125,6 +131,36 @@ knowme-text, p{
         border: none;
         border-radius: 20px;
     }
+}
+
+/*Slider section TEST-----------------------------------*/
+
+.sliderContainer{
+    height: 900px;
+}
+
+.carousel-caption{
+    
+    color: black;
+}
+
+#sliderHome{
+    height: 900px;
+}
+
+.divTest1{
+    height: 900px;
+    background-color: #ffca56;
+}
+
+.divTest2{
+    height: 900px;
+    background-color: #b7ffba;
+}
+
+.divTest3{
+    height: 900px;
+    background-color: #ffe0e2;
 }
 
 /*Properties section-----------------------------------*/
@@ -141,6 +177,7 @@ knowme-text, p{
         padding-bottom: 5rem;
         font-size: 3.5rem;
         color: #fff;
+        font-weight: 400;
     }
 }
 
@@ -180,7 +217,10 @@ knowme-text, p{
     scale: 150%;
     /*color: #75c9c9;*/
     filter: invert(77%) sepia(11%) saturate(1218%) hue-rotate(131deg) brightness(95%) contrast(87%);
+}
 
+.card-text{
+    font-weight: 360;
 }
 
 
@@ -212,7 +252,8 @@ knowme-text, p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #FFFEF6;
+    background-color: #2B3035;
+    color: #fff;
 } 
 
 .footer-container{
@@ -268,8 +309,8 @@ knowme-text, p{
     
 }
 
-.footer-map > iframe{
+/* .footer-map > iframe{
     box-shadow: 1px 1px 10px 1px;
-}
+} */
 
 
