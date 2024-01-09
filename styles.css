@@ -136,7 +136,7 @@ knowme-text, p{
 /*Slider section TEST-----------------------------------*/
 
 .sliderContainer{
-    height: 900px;
+    height: 700px;
 }
 
 .carousel-caption{
@@ -145,21 +145,21 @@ knowme-text, p{
 }
 
 #sliderHome{
-    height: 900px;
+    height: 700px;
 }
 
 .divTest1{
-    height: 900px;
+    height: 700px;
     background-color: #ffca56;
 }
 
 .divTest2{
-    height: 900px;
+    height: 700px;
     background-color: #b7ffba;
 }
 
 .divTest3{
-    height: 900px;
+    height: 700px;
     background-color: #ffe0e2;
 }
 
