@@ -1,5 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,700;0,800;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,400&family=Poppins:wght@100;200;300;400&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,700;0,800;1,700&family=Poppins:wght@100;200;300;400&display=swap');
 
 
@@ -13,6 +15,7 @@
 
 *{
     /* font-family: Poppins; */
+    font-family: Montserrat;
     margin: 0 auto;
 }
 
@@ -86,6 +89,7 @@
 
 /*Knowme section-----------------------------------*/
 .know-me{
+    /* max-width: 1365px; */
     padding: var(--contPadd);
     /*overflow-y: scroll;*/
     background-color: var(--bgc2);
@@ -100,10 +104,10 @@
     }
 }
 
-.know-cont{
+/* .know-cont{
     display: flex;
     flex-direction: column;
-}
+} */
 
 knowme-text, p{
     font-size: 1.5rem;
@@ -111,6 +115,7 @@ knowme-text, p{
 }
 
 .container-knowme{
+    max-width: 1365px;
     gap: 5rem;
 }
 
@@ -190,7 +195,11 @@ background: linear-gradient(12deg, rgba(255,229,171,1) 3%, rgba(255,255,255,1) 1
     }
 }
 
-.properties > div > p{
+.container-properties{
+    max-width: 1365px;
+}
+
+.properties .container-properties > div > p{
     color: #fff;
 }
 
@@ -258,13 +267,17 @@ background: linear-gradient(12deg, rgba(255,229,171,1) 3%, rgba(255,255,255,1) 1
 
 /*footer section-----------------------------------*/
 
-.footer-contact{
-    /* padding-top: 10%; */
-    padding: 10rem 6%;
-    font-size: 3.5rem;
+.footer{
+    max-width: 1365px;
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
+}
+
+.footer-contact{
+    padding: 10rem 6%;
+    font-size: 3.5rem;
+    /* display: flex;
+    flex-direction: row; */
     background-color: #2B3035;
     color: #fff;
 } 
@@ -315,61 +328,9 @@ background: linear-gradient(12deg, rgba(255,229,171,1) 3%, rgba(255,255,255,1) 1
     width: 65%;
 }
 
-
-
-/*Media queries //  SMALL devices------------------------------------*/
-@media only screen and (max-width: 480px){ /*NOTE: use max width for better responsive desidgn------------------------------------*/
-    .container-knowme{
-        flex-direction: column;
-        scale: 0.9;
-        gap: 1rem;
-    }
-
-    .know-me{
-        & h1{
-            padding-bottom: 0rem;
-        }
-    }
-
-    .knowme-img > img{
-        width: 300px;
-    }
-
-    .knowme-text{
-        width: 100%;
-    }
-
-    /*Properties------------------------------------------*/*/
-    .properties{
-        padding: 4rem 1rem;
-    }
-
-    .properties > div > h1{
-        text-align: center;
-    }
-
-    /*Footer------------------------------------------*/
-    .footer-contact{
-        padding: 2rem 1rem;
-        flex-direction: column;
-    }
-
-    .footer-container{
-        width: 100%;
-    }
-
-    .footer-map{
-        width: 100%;
-    }
-
-    .footer-map > iframe{
-        height: 300px;
-    }
-}
-
 /*Media queries //  EXRTA SMALL devices------------------------------------*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 0px) and (max-width: 320px) {
 
     /*Header------------------------------------------*/*/
     .header-content{
@@ -400,15 +361,209 @@ background: linear-gradient(12deg, rgba(255,229,171,1) 3%, rgba(255,255,255,1) 1
 
     .properties{
         width: 100%;
+        display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
-    .properties > div > h1{
+    .container-properties{
+        width: 100%;
+        
+    }
+
+    .container-properties p{
+        font-size: 1rem;
+    }
+
+    .properties div h1{
         font-size: 2rem;
         width: 100%;
     }
 }
 
+/*Media queries //  SMALL devices------------------------------------*/
+@media only screen and (min-width: 321px) and (max-width: 480px) { /*NOTE: use max width for better responsive desidgn------------------------------------*/
+    /* Header------------------------------------*/
+    .header-content{
+        scale: 0.5;
+    }
+    /* know me section------------------------------------*/ 
+    .container-knowme{
+        flex-direction: column;
+        scale: 0.9;
+        gap: 1rem;
+    }
 
+    .know-me h1{
+        font-size: 2.5rem;
+    }
 
+    .knowme-img > img{
+        width: 250px;
+    }
+
+    .knowme-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .knowme-text p{
+        font-size: 1.2rem;
+    }
+
+    .knowme-text button{
+        text-align: center;
+    }
+
+    /*Properties------------------------------------------*/
+    .container-properties div h1{
+        font-size: 2rem;
+    }
+    .container-properties div p{
+        font-size: 1.2rem;
+    }
+    .properties{
+        padding: 4rem 1rem;
+    }
+
+    .properties > div > h1{
+        text-align: center;
+    }
+
+    /*Footer------------------------------------------*/
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-contact{
+        padding: 4rem 2rem;
+        flex-direction: column;
+    }
+
+    .footer-container{
+        width: 100%;
+    }
+
+    .footer-container a button{
+        width: 220px;
+    }
+
+    .footer-map{
+        width: 100%;
+    }
+
+    .footer-map > iframe{
+        height: 300px;
+    }
+}
+
+/*Media queries //  MEDIUM devices------------------------------------*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .know-me{
+        height: 900px;
+    }
+    .container-knowme{
+        flex-direction: column;
+        /* scale: 0.9; */
+        /* gap: 1rem; */
+    }
+    .knowme-img > img{
+        width: 400px;
+    }
+    .knowme-text{
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    /*Nuestros Servicios-----------------------------------*/
+    .container-properties div h1{
+        font-size: 3.1rem;
+    }
+
+    /*footer section-----------------------------------*/
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-contact{
+        flex-direction: column;
+        height: 800px;
+        padding: 5rem 6%;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 100%;
+        text-align: left;
+    }
+    .footer-map{
+        width: 100%;
+    }
+    .footer-map > iframe{
+        height: 300px;
+    }
+    
+    
+}
+
+/*Media queries //  MEDIUM devices------------------------------------*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .know-me{
+        height: 900px;
+    }
+    .container-knowme{
+        flex-direction: column;
+    }
+    .knowme-img > img{
+        width: 500px;
+    }
+    .knowme-text{
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    /*footer section-----------------------------------*/
+    .footer{
+        flex-direction: column;
+    }
+    .footer-contact{
+        flex-direction: column;
+        height: 800px;
+        padding: 5rem 6%;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 100%;
+        text-align: left;
+    }
+    .footer-map{
+        width: 100%;
+    }
+    .footer-map > iframe{
+        height: 300px;
+    }
+}
+
+/*Media queries //  lARGE DEVICES devices------------------------------------*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .know-me{
+        height: 900px;
+    }
+    .container-knowme{
+        flex-direction: column;
+    }
+    .knowme-img > img{
+        width: 550px;
+    }
+    .knowme-text{
+        width: 100%;
+        /* text-align: center; */
+    }
+}
 
