@@ -32,6 +32,52 @@
     filter: invert(77%) sepia(11%) saturate(1218%) hue-rotate(131deg) brightness(95%) contrast(87%);
 }*/
 
+/*MENU TEST CRETION*/
+/* .botonNav{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(https://i.ibb.co/HrfVRcx/menu.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+.botonNav.active{
+    background: url(https://i.ibb.co/rt3HybH/close.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.menu-overview{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-overview ul{
+    position: relative;
+}
+.menu-overview ul li{
+    list-style: none;
+}
+.menu-overview ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFF;
+}
+.menu-overview ul li a:hover{
+    color: #03a9f4;
+} */
+
+/*MENU TEST CRETION*/
+
 /*Header-----------------------------------*/
 .headerTitle{
     /* display: flex;
