@@ -89,10 +89,23 @@
     }
 
     .headTestTitle{
-        text-shadow: #fff 2px 2px 20px;
-        text-align: left;
+        float: left;
+        /* text-shadow: #fff 2px 2px 20px; */
+        text-align: center;
         text-transform: uppercase;
     }
+
+    .headTestTitle, #calma{
+        font-size: 50pt;
+        font-weight: 600;
+    }
+
+    .headTestTitle, div, h1{
+        font-weight: 300;
+        font-size: 23pt;
+    }
+    
+    
 
     .calmaTitle{
         font-size: 8rem;
