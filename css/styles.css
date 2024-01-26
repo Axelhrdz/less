@@ -89,10 +89,14 @@
     }
 
     .headTestTitle{
-        float: left;
+        /* float: left; */
         /* text-shadow: #fff 2px 2px 20px; */
-        text-align: center;
+        /* text-align: center; */
         text-transform: uppercase;
+    }
+
+    .headTestTitle, h1{
+        max-width: 1365px;
     }
 
     .headTestTitle, #calma{
@@ -238,11 +242,14 @@ section{
 }
 
 section p{
+    max-width: 1365px;
+    text-align: center;
     position: relative;
     top: 70%;
     bottom: 10%;
     padding: 2rem 3rem;
     color: #fff;
+    text-shadow: #2B3035 5px 3px 2px;
 }
 
 section video{
@@ -254,23 +261,23 @@ section video{
     object-fit: cover;
 }
 
-/* section .navigation li img{
+section .navigation li img{
     width: 40px;
-} */
+}
 
-/* section .navigation li{
+section .navigation li{
     transition: 0.2s;
-} */
+}
 
-/* section .navigation li:hover{
+section .navigation li:hover{
     opacity: 1;
-} */
+}
 
-/* section .navigation li img:hover{
+section .navigation li img:hover{
     scale: 1.1;
-} */
+}
 
-/* section .navigation{
+section .navigation{
     position: absolute;
     bottom: 40px;
     left: 50%;
@@ -279,14 +286,14 @@ section video{
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
-/* section .navigation li{
+section .navigation li{
     list-style: none;
     cursor: pointer;
     margin: 0 10px;
     opacity: 0.6;
-} */
+}
 
 /*Properties section-----------------------------------*/
 .properties{
