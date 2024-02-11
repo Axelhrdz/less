@@ -226,11 +226,11 @@ knowme-text, p{
     width: 50%;
     font-weight: 400;
     & button{
-        width: 280px;
+        width: 260px;
         height: 60px;
         background-color: #75c9c9;
         border: none;
-        border-radius: 20px;
+        border-radius: 0;
     }
 }
 
@@ -305,9 +305,9 @@ section .navigation li{
     background-image: url(/images/A-massage-room.jpg);
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     & h1{
-        padding-bottom: 5rem;
+        padding-bottom: 2rem;
         font-size: 3.5rem;
         color: #fff;
         font-weight: 400;
@@ -424,11 +424,11 @@ section .navigation li{
     }
 
     & button{
-        width: 280px;
+        width: 260px;
         height: 60px;
         background-color: #25d366;
         border: none;
-        border-radius: 20px;
+        border-radius: 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -542,6 +542,10 @@ section .navigation li{
         gap: 1rem;
     }
 
+    .know-me{
+        height: 850px;
+    }
+
     .know-me h1{
         font-size: 2.5rem;
     }
@@ -568,7 +572,7 @@ section .navigation li{
         font-size: 2rem;
     }
     .container-properties div p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .properties{
         padding: 4rem 1rem;
@@ -624,7 +628,7 @@ section .navigation li{
 
     /*KNOW ME*/
     .know-me{
-        height: 900px;
+        height: 1050px;
     }
     .container-knowme{
         flex-direction: column;
@@ -700,7 +704,7 @@ section .navigation li{
 
     /*KNOW ME -------------------*/
     .know-me{
-        height: 900px;
+        height: 1050px;
     }
     .container-knowme{
         flex-direction: column;
