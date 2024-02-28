@@ -34,3 +34,13 @@ function prueba3 (){
     video.src = ('./videos/videoSlider3.mp4');
     text.innerText = "Creemos firmemente que brindar una experiencia integral, asi como otorgar buenos resultados al paciente, sera nuestro diferenciador. Prueba ya nuestros servicios, y mantente en Calma";
 };
+
+
+function myFunction() {
+    var navigation = document.getElementById("myTopnav");
+    if (navigation.className === "topnav") {
+      navigation.className += " responsive";
+    } else {
+      navigation.className = "topnav";
+    }
+  }
