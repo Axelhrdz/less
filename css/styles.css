@@ -612,7 +612,7 @@ section .navigation li{
         font-size: 2rem;
     }
     .container-properties div p{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .properties{
         padding: 4rem 1rem;
@@ -688,6 +688,7 @@ section .navigation li{
     /*Nuestros Servicios-----------------------------------*/
     .properties{
         padding: 7rem 1.2rem;
+        height: 1050px;
     }
 
     .container-properties div h1{
@@ -695,7 +696,7 @@ section .navigation li{
     }
 
     .properties .container-properties > div > p{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     /*footer section-----------------------------------*/
