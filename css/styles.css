@@ -44,7 +44,7 @@
 
     .headerTest div{
         margin: 0;
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
     }
 
     .headerTest div h2{
@@ -57,6 +57,16 @@
         text-transform: uppercase;
         font-weight: 200;
         font-size: 4rem;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 991px) {
+        .headerTest div h2 {
+            font-size: 3rem;
+            line-height: 1.8rem;
+        }
+        .headerTest div h3 {
+            font-size: 2rem;
+        }
     }
 /*<!-- FIXING HEADER TITLE  -->
 <!----------------------- -->*/
