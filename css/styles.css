@@ -53,8 +53,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover{
-    background-color: #75c9c9;
-    color: black;
+    background-color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -65,6 +64,10 @@
 .hamIcon{
     fill: #fff;
     border-radius: 0;
+}
+
+.hamIcon:hover{
+    filter: invert(0%) sepia(0%) saturate(7475%) hue-rotate(284deg) brightness(104%) contrast(96%);
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -477,6 +480,7 @@ section .navigation li{
 
 .footer-map iframe{
     border-radius: 10px;
+    width: 95%;
 }
 
 /* ---------------- HERE START MEDIA QUERIES ---------------- */
@@ -545,6 +549,11 @@ section .navigation li{
         font-size: 2rem;
         width: 100%;
     }
+
+    /* footer */
+    .footer-map{
+        width: 200px;
+    }
 }
 
 /*Media queries //  SMALL devices------------------------------------*/
@@ -603,7 +612,7 @@ section .navigation li{
         font-size: 2rem;
     }
     .container-properties div p{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .properties{
         padding: 4rem 1rem;
@@ -637,6 +646,7 @@ section .navigation li{
 
     .footer-map > iframe{
         height: 300px;
+        width: 95%;
     }
 }
 
@@ -685,7 +695,7 @@ section .navigation li{
     }
 
     .properties .container-properties > div > p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     /*footer section-----------------------------------*/
@@ -711,6 +721,7 @@ section .navigation li{
     }
     .footer-map > iframe{
         height: 300px;
+        width: 95%;
     }
     
     
@@ -748,6 +759,15 @@ section .navigation li{
         /* text-align: center; */
     }
 
+    /*PROPERTIES -------------------*/
+    .properties{
+        padding: 4rem 3rem;
+    }
+
+    .properties .container-properties > div > p{
+        font-size: 1.6rem;
+    }
+
     /*footer section-----------------------------------*/
     .footer{
         flex-direction: column;
@@ -770,6 +790,7 @@ section .navigation li{
     }
     .footer-map > iframe{
         height: 300px;
+        width: 95%;
     }
 }
 
