@@ -267,6 +267,10 @@ section video{
     object-fit: cover;
 }
 
+.navigation{
+    padding: 0;
+}
+
 section .navigation li img{
     width: 40px;
 }
@@ -287,7 +291,7 @@ section .navigation{
     position: absolute;
     bottom: 40px;
     left: 50%;
-    transform: translateX(-50px);
+    transform: translateX(-100px);
     z-index: 100;
     display: flex;
     justify-content: center;
